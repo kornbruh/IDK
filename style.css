@@ -1,0 +1,70 @@
+/*網頁身體*/
+body {
+  background-color: #FADADD; 
+  margin: 0;
+  font-family: "微軟正黑體", sans-serif;
+}
+/*頁首*/
+header {
+  background-color: #F8A5C2; 
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 28px;
+  border-bottom: 2px solid #f28ab2;
+}
+/*導覽行*/
+nav {
+background-color: transparent;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  background-color: #F8A5C2;
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: color 0.3s;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: #FFD1DC;
+}
+/*表格*/
+table, th, td {
+  margin: 30px auto;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: center;
+}
+/*列表*/
+ul {
+  list-style: none; 
+  padding: 0;
+  text-align: center;
+}
+/*H2置中*/
+.centerH2 {
+  text-align: center; 
+  margin: 30px auto;  
+  font-size: 30px;
+}
+/*首頁文字*/
+.indextext{ 
+  text-align: center;
+  font-size: 20px;
+}
+/*關於我H3*/
+.aboutH3{
+  text-align: center;
+  font-size: large;
+}
